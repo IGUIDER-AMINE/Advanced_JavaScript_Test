@@ -77,7 +77,7 @@ const tasks = [
     hoursRequired: 10,
     taskType: "bug",
     priority: 5,
-    dependencies: ["Feature A"],
+    dependencies: [],
   },
   {
     taskName: "Refactor C",
@@ -93,7 +93,7 @@ const tasks = [
     hoursRequired: 20,
     taskType: "feature",
     priority: 2,
-    dependencies: ["Feature A"],
+    dependencies: [],
   },
   {
     taskName: "Upgrade E",
@@ -104,7 +104,6 @@ const tasks = [
     dependencies: ["Feature A"],
   },
 ];
-
 console.log(
   JSON.stringify(assignTasksWithPriorityAndDependencies(developers, tasks))
 );
