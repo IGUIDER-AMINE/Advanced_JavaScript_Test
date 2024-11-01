@@ -1,3 +1,3 @@
 # Result
 
-<src="./image.png" alt="Result"/>
+<img src="./image.png" alt="Result"/>
